@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace Baalhyttebooking
 {
-    public class ReservationsListe
+    public class Reservationer
     {
         public int ID { get; set; }
 
         public Dictionary<int, Reservation> Reservation { get; set; }
 
-        public ReservationsListe()
+        public Reservationer()
 
         {
             DateTime Tids = new DateTime(2005, 12, 15);

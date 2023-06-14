@@ -29,9 +29,9 @@
             Reservation reservation5 = new Reservation() { ID = 10,Tidspunk = tid5, boernegruppe = b3 /*new Boernegruppe() { ID = "EM", Name = "Elvis", Aldergruppe = "puslig", AntalDeltagere = 20 } */};
 
 
-            ReservationsListe reservationsListe = new ReservationsListe();
+            Reservationer reservationsListe = new Reservationer();
 
-            reservationsListe.AddReservation( reservation1);
+          
             reservationsListe.AddReservation(reservation2);
             reservationsListe.AddReservation(reservation3);
             reservationsListe.AddReservation(reservation4);
